@@ -1,0 +1,61 @@
+.chat--list--element {
+  display: grid;
+  height: 100px;
+  grid-template-columns: 2fr 7fr 1fr;
+  padding: 10px 15px 10px 10px;
+  align-items: center;
+  border-bottom: 2px solid var(--additional--font-color);
+  cursor: pointer;
+  gap: 0.5rem;
+  transition: 0.3s background-color;
+
+  &:hover,
+  &:active {
+    @include chat-list-element-active;
+  }
+
+  &--content,
+  &--aside {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &--content {
+    gap: 0.4rem;
+    align-self: baseline;
+    padding-top: 10px;
+  }
+
+  &--name {
+    font-weight: 500;
+  }
+
+  &--preview {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: var(--secondary--font-color);
+  }
+
+  &--time {
+    color: var(--secondary--font-color);
+  }
+
+  &--aside {
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 12px;
+  }
+  &--count {
+    border-radius: 50%;
+    background-color: var(--primary--accent-color);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    color: white;
+    width: 20px;
+    height: 20px;
+  }
+}

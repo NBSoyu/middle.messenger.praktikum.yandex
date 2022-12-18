@@ -1,0 +1,17 @@
+.left--side--bar {
+  background-color: var(--secondary-bg-color);
+  width: 4rem;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid var(--additional--font-color);
+
+  &--content {
+    & a {
+      transform: rotate(180deg);
+      display: block;
+    }
+  }
+}
