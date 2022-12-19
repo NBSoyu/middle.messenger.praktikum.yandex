@@ -9,7 +9,7 @@
     "parcel": "2.8.1",
     "postcss-import": "15.1.0",
     "precss": "4.0.0",
-    "@parcel/transformer-sass": "2.8.2"
+    "@parcel/transformer-sass": "2.8.1"
   },
   "engines": {
     "node": ">=12"
