@@ -1,0 +1,32 @@
+.search--input {
+  border-radius: 0.5rem;
+  background-color: var(--additional--font-color);
+  width: 100%;
+  padding: 0 10px 0 10px;
+  height: 40px;
+  outline: none;
+
+  &--container {
+    position: relative;
+    width: 100%;
+
+
+    // &:has(input:focus) {
+    //   &::before {
+    //     display: none;
+    //   }
+    //   input::placeholder {
+    //     opacity: 0;
+    //   }
+    // }
+
+    &:has(:not(input:placeholder-shown))::before {
+      display: none;
+    }
+  }
+
+  &::placeholder {
+    text-align: center;
+    background-repeat: no-repeat;
+  }
+}

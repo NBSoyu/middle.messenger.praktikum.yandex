@@ -1,0 +1,12 @@
+.chat--header--control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 1rem;
+@include divider;  &--info {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+  }
+}
