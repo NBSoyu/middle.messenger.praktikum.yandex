@@ -1,11 +1,17 @@
 {
+  "name": "module_1",
+  "version": "1.0.0",
+  "description": "praktikum",
   "scripts": {
-    "dev": "parcel src/pages/index.hbs --no-cache",
-    "build": "parcel build src/pages/index.hbs",
-    "test": "echo \"Error: no test specified\" && exit l"
+    "dev": "parcel src/pages/index.hbs --no-cache --open",
+    "start": "parcel build src/pages/index.hbs && node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/pages/index.hbs"
   },
+  "license": "ISC",
   "devDependencies": {
     "@anikin/parcel-transformer-handlebars": "1.0.9",
+    "@parcel/transformer-sass": "^2.8.1",
     "parcel": "2.8.1",
     "postcss-import": "15.1.0",
     "precss": "4.0.0"
