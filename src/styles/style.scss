@@ -17,7 +17,6 @@
 @import "../components/chat-select/chat-select.scss";
 @import "../components/chat-message/chat-message.scss";
 @import "../components/chat-messages-container/chat-messages-container.scss";
-@import "../components/chat--footer/chat-footer.scss";
 @import "../components/search-input/search-input.scss";
 @import "../components/chat-header-control/chat-header-control.scss";
 @import "../components/chat-avatar/chat-avatar.scss";
@@ -32,7 +31,6 @@
 @import "./shares/action-button.scss";
 @import "./shares/signin.scss";
 
-
 //Settings
 
 //Popover
@@ -42,4 +40,3 @@
 ::after {
   font-family: "Inter", sans-serif;
 }
-

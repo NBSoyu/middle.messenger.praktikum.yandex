@@ -7,23 +7,9 @@
   --primary--font-size: 14px;
   --mine-message-color: #e4edfd;
   --message-font-color: #1e1e1e;
-   --element-hover: #e4edfd;
+  --element-hover: #e4edfd;
   --chat--bottom--control--height: 60px;
-  --chat--messages--container--height: calc(
-    100vh - (var(--chat--bottom--control--height) * 2)
-    );
-    --mine-message-status-color: #3369F3;
-}
-
-
-
-@media (prefers-color-scheme: light) {
-  * {
-    --theme-bg: white;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  * {
-    --theme-bg: black;
-  }
+  --chat--messages--container--height: calc(100vh - (var(--chat--bottom--control--height) * 2));
+  --mine-message-status-color: #3369f3;
+  --theme-bg: white;
 }

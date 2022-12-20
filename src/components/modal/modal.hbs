@@ -1,23 +1,14 @@
----
-text: 'Поменять';
-user-name_visibility: 'hidden'
-status-link-change-data: 'none'
-status-link-change-password: "none"
-status-profile-exit: "none"
-status-submit: 'block'
----
-
 <div class="modal">
+  <form>
     <div class="modal--content">
-        <span class="modal--title">Добавить пользователя</span>
-        <div class="action--input">
-            <div class="action--input__container">
-                <label class="action--input--placeholder">Пользователь</label>
-                <input type="text" />
-            </div>
+      <span class="modal--title">Добавить пользователя</span>
+      <div class="action--input">
+        <div class="action--input__container">
+          <label class="action--input--placeholder">Пользователь</label>
+          <input type="text" name="user" />
         </div>
-
-        <button class="action--button primary">Добавить</button>
-
+      </div>
+      <button class="action--button primary" type="submit">Добавить</button>
     </div>
+  </form>
 </div>

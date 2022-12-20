@@ -1,13 +1,15 @@
+<form>
 <div class="chat--bottom--control">
     <div class="chat--bottom--control--actions">
         {{> 'popover/popover'}}
     </div>
     <div class="chat--bottom--control--input">
-        <input type="text" placeholder="Введите сообщения">
+        <input type="text" placeholder="Введите сообщения" name="message">
     </div>
     <div class="chat--bottom--control--send--button">
-        <button>
+        <button type="submit">
             <img src="../asserts/arrow.png" alt="send">
         </button>
     </div>
 </div>
+</form>

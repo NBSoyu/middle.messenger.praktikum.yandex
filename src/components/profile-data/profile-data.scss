@@ -121,9 +121,11 @@
 .button--change--save {
   display: flex;
   justify-content: center;
-  width: 280px;
-  height: 35px;
+  width: 400px;
+  height: 45px;
   color: white;
   background-color: var(--primary--accent-color);
   border-radius: 10px;
+  text-align: center;
+  align-items: center;
 }

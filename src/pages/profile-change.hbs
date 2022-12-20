@@ -1,42 +1,40 @@
 {{!< absolute}} <div class="profile--main">
   {{> 'left-side-bar/left-side-bar'}}
   <div class="profile--main--container">
+    <form>
     <div class="profile--main--info--container">
       <div class="profile--main--info--avatar">
         <div class="profile--main--info--avatar--mask">
           <label for="profile--main--change--avatar">Поменять аватар</label>
           <input type="checkbox" id="profile--main--change--avatar">
-
         </div>
       </div>
       <div class="profile--info">
         <p>Почта</p>
-        <input class="profile--info--text" type="text" placeholder="pochta@yandex.ru">
+        <input class="profile--info--text" type="text" placeholder="pochta@yandex.ru" name="email">
       </div>
       <div class="profile--info">
         <p>Логин</p>
-        <input class="profile--info--text" type="text" placeholder="ivanivanov">
+        <input class="profile--info--text" type="text" placeholder="ivanivanov" name="login">
       </div>
       <div class="profile--info">
         <p>Имя</p>
-        <input class="profile--info--text" type="text" placeholder="Иван">
+        <input class="profile--info--text" type="text" placeholder="Иван" name="first_name">
       </div>
       <div class="profile--info">
         <p>Фамилия</p>
-        <input class="profile--info--text" type="text" placeholder="Иванов">
+        <input class="profile--info--text" type="text" placeholder="Иванов" name="second_name">
       </div>
       <div class="profile--info">
         <p>Имя в чате</p>
-        <input class="profile--info--text" type="text" placeholder="Ivan">
-
+        <input class="profile--info--text" type="text" placeholder="Ivan" name="display_name">
       </div>
       <div class="profile--info">
         <p>Номер телефона</p>
-        <input class="profile--info--text" type="text" placeholder="+7 (909) 967 30 30">
+        <input class="profile--info--text" type="text" placeholder="+7 (909) 967 30 30" name="phone">
       </div>
-
+      <button class="button--change--save" type="submit">Сохранить</button>
     </div>
-    <input class="button--change--save" type="button" value="Сохранить">
     {{> 'modal-change-avatar/modal-change-avatar'}}
-
+</form>
   </div>

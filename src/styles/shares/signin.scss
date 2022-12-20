@@ -24,8 +24,6 @@
   border-radius: 12px;
   max-width: 95vw;
 
-
-
   &--container {
     padding: 40px;
     gap: 2rem;
@@ -41,6 +39,9 @@
     font-size: 20px;
     line-height: 20px;
     padding: 40px 0;
+    & h1 {
+      font-size: 22px;
+    }
   }
 
   &--content {
@@ -65,7 +66,7 @@
     }
     &.primary {
       color: white;
-      background-color: var( --primary--accent-color);
+      background-color: var(--primary--accent-color);
       padding: 12px 70px;
       border-radius: 0.5rem;
       height: 55px;
@@ -73,7 +74,7 @@
 
     &.secondary {
       background-color: transparent;
-      color: var( --primary--accent-color);
+      color: var(--primary--accent-color);
       height: 30px;
     }
   }
