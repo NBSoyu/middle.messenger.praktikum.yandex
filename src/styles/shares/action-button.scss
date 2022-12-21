@@ -1,0 +1,20 @@
+.action--button {
+  &.primary,
+  &.secondary {
+    width: 100%;
+    cursor: pointer;
+  }
+  &.primary {
+    color: white;
+    background-color: var(--primary--accent-color);
+    padding: 12px 70px;
+    border-radius: 0.5rem;
+    height: 55px;
+  }
+
+  &.secondary {
+    background-color: transparent;
+    color: var(--primary--accent-color);
+    height: 30px;
+  }
+}
